@@ -1,0 +1,123 @@
+/* Fonts*/
+:root{
+    --font-base:"Poppins", sans-serif;
+}
+
+body{
+    font-family: var(--font-base);
+}
+/* Company name and logo */
+
+.logo{
+ padding-left: 10px;
+}
+.logo-h4{
+    padding-left: 50px;
+    margin-top: -5vh;
+}
+
+/* NavBar*/
+
+/* change the background color */
+.navbar{
+    font-family: var(--font-base);
+    background-color: #737373fd;
+}
+
+.navbar-dark{
+    background-color: #737373fd;
+}
+
+.btn-primary{
+    background-color: rgb(129, 142, 145) !important;
+}
+
+.btn-primary:hover{
+    background-color: rgb(95, 139, 148) !important;
+}
+/* Hero*/
+*{
+    margin: 0;
+    padding: 0;
+}
+#Hero {
+    background: url(../img/home/wallpaperflare.com_wallpaper\ \(1\).jpg);
+    /*background-position: center;
+    background-size: cover;*/
+    height: 109vh;
+}
+
+.box{
+    width: 330px;
+    height: 150px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 450px;
+    left: 1100px;
+    border-radius: 10px;
+    padding: 32px;
+
+}
+.box-h1{
+    color: aliceblue !important;
+}
+.box-h2{
+    color: rgb(173, 112, 21) !important;
+}
+
+/* About Us */
+
+.section-padding{
+    margin-top: 200px;
+}
+.teamsborder{
+    width: 300px;
+    margin-top: -2px;
+}
+.teamTitle{
+    color: rgb(173, 112, 21);
+    font-size: 45px;
+    font-weight: 750;
+    font-family: var(--font-base);
+}
+.team-p{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: var(--font-base);
+    
+}
+.person{
+    width: 500px;
+    padding-left: 90px;
+    padding-right: 110px;
+}
+
+.person2{
+    width: 450px;
+    padding-left: 90px;
+    padding-right: 110px;
+}
+
+.person3{
+    width: 450px;
+    padding-left: 90px;
+    padding-right: 110px;
+}
+
+.row{
+    padding-top: 100px;
+}
+
+.nameh3{
+    padding-top: 30px;
+    text-align: center;
+}
+
+/* Footer */
+
+.footerh6{
+    color: aliceblue;
+    background-color: black;
+}
+
+
